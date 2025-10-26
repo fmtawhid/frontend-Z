@@ -53,36 +53,43 @@
 </head>
 <body class="bg-white text-gray-900 font-sans">
 
-<!-- Hero Section -->
 <section class="relative bg-gradient-to-b from-gray-50 to-white pt-24 pb-28 overflow-hidden">
-    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
-        <!-- Left -->
-        <div class="md:w-1/2 text-center md:text-left">
-            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6">
-                Watch Bangla Movies & Series Online on <span class="text-red-600">Zatra TV</span>
-            </h1>
-            <p class="text-gray-600 text-lg mb-8">
-                Stream trending Bangla movies, originals, and exclusive shows instantly. Anytime, anywhere — only on Zatra TV.
-            </p>
-            <div class="flex justify-center md:justify-start gap-6 flex-wrap">
-                <a href="https://app.zatra.tv/" class="bg-red-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
-                    Start Watching
-                </a>
-                <a href="https://app.zatra.tv/" class="border-2 border-red-600 text-red-600 px-8 py-4 rounded-2xl font-semibold hover:bg-red-50 hover:scale-105 transition-all">
-                    Explore Now
-                </a>
-            </div>
-        </div>
-        <!-- Right -->
-        <div class="md:w-1/2 relative flex justify-center md:justify-end items-center">
-            <div class="absolute -top-16 -right-16 w-72 h-72 bg-pink-200 rounded-full opacity-20 animate-pulse blur-2xl"></div>
-            <div class="absolute -bottom-20 -left-16 w-80 h-80 bg-red-200 rounded-full opacity-20 animate-pulse blur-3xl"></div>
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[250px] md:w-[350px] lg:w-[260px]">
-                <img src="img/image.jpg" alt="Zatra TV Banner" class="rounded-3xl shadow-2xl w-full object-cover">
-            </div>
-        </div>
+  <div class="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
+    
+    <!-- Left: Text -->
+    <div class="md:w-1/2 text-center md:text-left">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-snug">
+        Watch Bangla Movies & Series Online on <span class="text-red-600">Zatra TV</span>
+      </h1>
+      <p class="text-gray-600 text-base sm:text-lg md:text-lg mb-8">
+        Stream trending Bangla movies, originals, and exclusive shows instantly. Anytime, anywhere — only on Zatra TV.
+      </p>
+      <div class="flex justify-center md:justify-start gap-4 sm:gap-6 flex-wrap">
+        <a href="https://app.zatra.tv/" class="bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
+          Start Watching
+        </a>
+        <a href="https://app.zatra.tv/" class="border-2 border-red-600 text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold hover:bg-red-50 hover:scale-105 transition-all">
+          Explore Now
+        </a>
+      </div>
     </div>
+
+    <!-- Right: Image -->
+    <div class="md:w-1/2 relative flex justify-center md:justify-end items-center w-full">
+      <!-- Decorative circles -->
+      <div class="absolute -top-12 -right-12 w-40 h-40 bg-pink-200 rounded-full opacity-20 animate-pulse blur-2xl hidden sm:block"></div>
+      <div class="absolute -bottom-16 -left-12 w-52 h-52 bg-red-200 rounded-full opacity-20 animate-pulse blur-3xl hidden sm:block"></div>
+
+      <!-- Image -->
+      <div class="relative w-48 sm:w-56 md:w-64 lg:w-60">
+        <img src="img/image.jpg" alt="Zatra TV Banner" class="rounded-3xl shadow-2xl w-full h-auto object-cover">
+      </div>
+    </div>
+
+  </div>
 </section>
+
+
 
 <!-- Features Section -->
 <section class="py-20 px-6 bg-gray-50">
